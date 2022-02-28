@@ -1,0 +1,98 @@
+main {
+  display: flex;
+  gap: 190px;
+}
+
+section {
+  margin-left: 120px;
+}
+
+aside {
+  margin-right: 190px;
+}
+
+.titulo-receita {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffa000;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.image-risoto {
+  display: flex;
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+
+.dificuldade,
+.pessoas {
+  background-color: #fff;
+  margin-top: 25px;
+  border: 1px solid #176902;
+  border-radius: 47px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #176902;
+}
+
+.dificuldade {
+  padding: 7px 10px;
+}
+
+.pessoas {
+  padding: 7px 20px;
+  margin-left: 19px;
+}
+
+.ingredientes,
+.ingredientes-lista,
+.video,
+.preparo {
+  font-size: 20px;
+}
+
+.ingredientes {
+  margin-bottom: 10px;
+  margin-top: 58px;
+}
+
+.ingredientes-lista {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.video {
+  margin-top: 58px;
+  margin-bottom: 10px;
+}
+
+.preparo {
+  margin-top: 58px;
+  margin-bottom: 10px;
+}
+
+.preparo-passos {
+  margin-top: 0;
+  margin-bottom: 166px;
+  width: 592px;
+  height: 310px;
+}
+
+.relacionadas {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffa000;
+  margin-top: 178px;
+}
+
+.card-receita {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 345px;
+}
+
+.card-receita h3 {
+  text-align: center;
+  font-size: 26px;
+  padding: 15px;
+}
