@@ -1,0 +1,88 @@
+.banner {
+  background-image: url(../images/contato.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 405px;
+}
+
+.banner h1 {
+  margin: 0 0 0 120px;
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 49px;
+}
+
+.banner-lateral {
+  background-image: url(../images/contato-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 1110px;
+  border-radius: 20px;
+}
+
+.container-form {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin: 50px auto;
+  gap: 15px;
+}
+
+form h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 249px 550px 65px 33px;
+  color: #ffc107;
+}
+
+.container-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.container-form form * {
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+input,
+textarea,
+button {
+  border: 1px solid #ffc107;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  color: #58555d;
+  font-weight: 400;
+}
+
+button {
+  background-color: #ffc107;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 15px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+form {
+  background: #ffffff;
+  border: 1px solid #ffc107;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px;
+}
